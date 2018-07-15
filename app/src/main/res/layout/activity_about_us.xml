@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back3"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.floatwindow.InstructionsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开发人员:"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="戴春晖"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刘新禧"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="张旺"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系我们："
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1916008039@qq.com"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>

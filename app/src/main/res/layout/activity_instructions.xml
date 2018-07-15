@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back3"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.floatwindow.AboutUsActivity">
+
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="1.使用前开启手机存储和弹窗权限"
+        android:textSize="25dp"
+        android:textColor="#000"
+        />
+
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="2.在主界面开启摇一摇或悬浮球功能"
+        android:textSize="25dp"
+        android:textColor="#000"
+        />
+
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="3.在需要截屏界面摇动手机截取屏幕或点击控件选取对应功能截取屏幕"
+        android:textSize="25dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="4.截图后保存，图片保存在本地Pictures文件夹"
+        android:textSize="25dp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>

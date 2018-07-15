@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.floatwindow">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.hardware.sensor.accelerometer" />
+
+    <application
+        android:name=".SuperScreenShot"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".FloatWindowService"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name=".AllShotService" />
+        <service android:name=".ShakeService" />
+
+        <activity
+            android:name=".ScreenCaptureActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/ScreenCaptureTheme" />
+        <activity
+            android:name=".CaptureResultActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/ScreenCaptureResultTheme" />
+        <activity
+            android:name=".InstructionsActivity"
+            android:label="使用说明" />
+        <activity android:name=".AboutUsActivity"
+            android:label="关于我们"></activity>
+        <activity android:name=".AllShotActivity"
+            android:theme="@android:style/Theme.NoDisplay">
+        </activity>
+    </application>
+
+</manifest>
